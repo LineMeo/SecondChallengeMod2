@@ -36,11 +36,11 @@ if (janeiro || dezembro == true) {
 
 //4 - Criar uma condição que exiba uma mensagem no console se seu nome começar com a letra R
 let nome = 'aline'
-let resultado = name.split('')
+let resultado = nome.split('')
 
 console.log(resultado)
 
-let resul = name.split('r')
+let resul = nome.split('r')
 
 if (resul == 'r') {
     console.log('Seu nome começa com R')
@@ -52,7 +52,7 @@ if (resul == 'r') {
 //OU seu nome começar com a letra E
 let sobrenome = 'Marques'
 
-if (sobrenome.length >= 6 || name == 'e') {
+if (sobrenome.length >= 6 || nome == 'e') {
     console.log("Seu sobrenome tem mais de 6 letras OU seu nome começa com a letra 'E'")
 } else {
     console.log('Nada Acontece')
