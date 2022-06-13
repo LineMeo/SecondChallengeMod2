@@ -35,7 +35,7 @@ if (janeiro || dezembro == true) {
 // 4 e 5 não sei se fiz certo, mas tentei
 
 //4 - Criar uma condição que exiba uma mensagem no console se seu nome começar com a letra R
-let name = 'aline'
+let nome = 'aline'
 let resultado = name.split('')
 
 console.log(resultado)
